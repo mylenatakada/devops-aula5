@@ -1,5 +1,13 @@
-language: python
-python:
-  - "3.4"
-script:
-  - cd src; python testes.py  
+{
+  "language": "python",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "python": [
+    "3.4"
+  ],
+  "script": [
+    "cd src; python testes.py"
+  ]
+}  
