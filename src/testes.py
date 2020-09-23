@@ -1,4 +1,4 @@
-import sys
+import jogovelha
 
 erroInicializar = False
 jogo = jogovelha.inicializar()
